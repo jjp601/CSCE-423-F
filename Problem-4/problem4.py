@@ -1,0 +1,1 @@
+jetDashboard=lambda o,n: [(max(q:=o[-n:][:i+1]),-sum(q)/~i,i and numpy.std(q,ddof=1) or -1) for i in range(n)]
