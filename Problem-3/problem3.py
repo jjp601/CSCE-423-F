@@ -1,4 +1,3 @@
-
 def treeDiameter(n, tree):
     n, t = eval(dir()[0])
     import scipy.sparse as s 
